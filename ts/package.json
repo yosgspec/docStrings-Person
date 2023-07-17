@@ -1,0 +1,11 @@
+{
+  "name": "Person",
+  "version": "1.0.0",
+  "description": "",
+  "main": "testPerson.ts",
+  "scripts": {
+    "test": "tsc --locale ja -t esnext -m commonjs testPerson.ts --outDir obj & node obj/testPerson.js"
+  },
+  "author": "",
+  "license": "ISC"
+}

@@ -1,0 +1,13 @@
+#runtime "hsp3cl"
+#include "Person.as"
+
+
+new@Person psn, "Taro", "Tanaka", 25, 175.5
+mes firstName(psn)
+mes lastName(psn)
+mes strf("%d", age(psn))
+mes strf("%.1f", height(psn))
+mes fullName(psn)
+mes fullName(psn, 1)
+mes fullName(psn, 1, ",")
+viewStatus psn
